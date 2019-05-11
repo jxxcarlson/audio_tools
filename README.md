@@ -26,9 +26,9 @@ Code to take the samples is in the files `gen_sound.py` and `gen_sound2.py`
 
 ## Credits
 
-The code in `gen_sound.py` (slightly) adapted from the example in th [wavio library](https://pypi.org/project/wavio/).
+The code in `gen_sound1.py` (slightly) adapted from the example in th [wavio library](https://pypi.org/project/wavio/).
 
-The code in `gen_sound1.py` is based on that described in the two articles below:
+The code in `gen_sound2.py` is based on that described in the two articles below:
 
 - [It is ridiculously easy to generate any audio signal using Python](https://thehackerdiary.wordpress.com/2017/06/09/it-is-ridiculously-easy-to-generate-any-audio-signal-using-python/) — by 153armstrong
 
