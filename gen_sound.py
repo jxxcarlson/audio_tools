@@ -17,9 +17,10 @@ import struct
 import numpy as np
 import struct
 import wave
+import time
 
 FREQUENCY = 440             # Hertz
-AMPLITUDE = 255             # Max 255
+AMPLITUDE = 127             # Max 255
 DURATION = 2                # seconds
 SAMPLERATE = 44100          # Don't change
 FILENAME = 'sine.wav'       # up to you
@@ -35,6 +36,7 @@ index = np.arange(SAMPLESIZE)
 # Therefore the argument of the `sin` function is dimensionless,
 # as it should be.
 samples = AMPLITUDE*np.sin(2 * np.pi * FREQUENCY * index / SAMPLERATE)
+
 
 # Open a .wav file and set its parameters so that standard
 # program can read it, that is: play it!
